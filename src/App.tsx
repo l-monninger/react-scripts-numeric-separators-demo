@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Color from "color";
 
 function App() {
+
+  const ligtened = Color("green").lighten(.1).hex();
+  
   return (
     <div className="App">
       <header className="App-header">
